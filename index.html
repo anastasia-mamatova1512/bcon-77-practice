@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply Chocolate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""
-          >Simply Chocolate
-          <img
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo" href=""
+          ><i>Simply</i> Chocolate
+          <img class="logo-image"
             src="./images/logo/chocolate.svg"
             alt="logo"
             width="24"
@@ -18,46 +23,46 @@
           />
         </a>
 
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it&#39;s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+        <ul class="header-list">
+          <li class="header-list-item"><a class="header-list-link" href="">Home</a></li>
+          <li class="header-list-item"><a class="header-list-link" href="">How it&#39;s made?</a></li>
+          <li class="header-list-item"><a class="header-list-link" href="">Chocolate is loved</a></li>
         </ul>
 
-        <ul>
-          <li>
-            <a
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a class="socials-link"
               href=""
               aria-label="facebook"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
+              ><img class="socials-icon"
                 src="./images/socials/facebook.svg"
                 alt="facebook"
                 width="40"
                 height="40"
             /></a>
           </li>
-          <li>
-            <a
+          <li class="socials-item">
+            <a class="socials-link"
               href=""
               aria-label="instagram"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
+              ><img class="socials-icon"
                 src="./images/socials/instagram.svg"
                 alt="instagram"
                 width="40"
                 height="40"
             /></a>
           </li>
-          <li>
-            <a
+          <li class="socials-item">
+            <a class="socials-link"
               href=""
               aria-label="twitter"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
+              ><img class="socials-icon"
                 src="./images/socials/twitter.svg"
                 alt="twitter"
                 width="40"
@@ -67,34 +72,34 @@
         </ul>
       </nav>
     </header>
-    <section>
-      <h1>
+    <section class="hero">
+      <h1 class="hero-title">
         Treat yourself or a loved one to our finest ingredients for a moment of
         pure delight!
       </h1>
-      <div>
-        <button type="button">Buy now</button>
-        <button type="button">How it&#39;s made</button>
+      <div class="hero-controls">
+        <button class="hero-button-primary" type="button">Buy now</button>
+        <button class="hero-button-secondary" type="button">How it&#39;s made</button>
       </div>
-      <a href="#benefits"
-        >scroll down<img src="/images/arrow.svg" alt="arrow down icon"
+      <a class="hero-arrow" href="#benefits"
+        >scroll down<img class="hero-icon" src="/images/arrow.svg" alt="arrow down icon"
       /></a>
     </section>
-    <section id="benefits">
-      <h2 hidden>benfits title</h2>
-      <ul>
-        <li>
-          <h3>Unsurpassed taste</h3>
-          <p>
+    <section class="benefits" id="benefits">
+      <h2 class="visually-hidden">benfits title</h2>
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <h3 class="benefits-subtitle">Unsurpassed taste</h3>
+          <p class="benefits-text">
             Crafted with the finest quality cocoa beans and a dedication to
             perfection, each bite is a decadent experience that simply cannot be
             matched. Savor the richness and complexity of our Unsurpassed Taste
             and discover a new level of chocolate bliss.
           </p>
         </li>
-        <li>
-          <h3>Affordable price</h3>
-          <p>
+        <li class="benefits-item">
+          <h3 class="benefits-subtitle">Affordable price</h3>
+          <p class="benefits-text">
             Indulge in high-quality chocolate without breaking the bank with
             Simply Chocolate's selection of affordable treats. Enjoy
             mouth-watering truffles and velvety chocolate bars without
@@ -102,9 +107,9 @@
             affordable luxury today.
           </p>
         </li>
-        <li>
-          <h3>Own production</h3>
-          <p>
+        <li class="benefits-item">
+          <h3 class="benefits-subtitle">Own production</h3>
+          <p class="benefits-text">
             We take pride in our own production process, ensuring that every
             step is carefully crafted to perfection. From selecting the finest
             ingredients to handcrafting each piece, our attention to detail is
@@ -115,72 +120,72 @@
     </section>
 
     <!-- #region Ingredients -->
-    <section>
-        <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
+    <section class="ingredients">
+        <h2 class="ingredients-title">It all adds up to one exceptional <span class="ingredients-title-accent">taste</span> sensation</h2>
 
-        <ul>
-          <li>
-            <img
+        <ul class="ingredients-list">
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-1.png"
               alt="MILK CHOCOLATE"
               width="214"
               height="160"
             />
-            <h3>MILK CHOCOLATE</h3>
+            <h3 class="ingredients-subtitle">MILK CHOCOLATE</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-2.png"
               alt="MILK"
               width="214"
               height="160"
             />
-            <h3>MILK</h3>
+            <h3 class="ingredients-subtitle">MILK</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-3.png"
               alt="NUTS"
               width="214"
               height="160"
             />
-            <h3>NUTS</h3>
+            <h3 class="ingredients-subtitle">NUTS</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-4.png"
               alt="SEMI - SWEET CHOCOLATE"
               width="214"
               height="160"
             />
-            <h3>SEMI - SWEET CHOCOLATE</h3>
+            <h3 class="ingredients-subtitle">SEMI - SWEET CHOCOLATE</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-5.png"
               alt="CACAO"
               width="214"
               height="160"
             />
-            <h3>CACAO</h3>
+            <h3 class="ingredients-subtitle">CACAO</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-6.png"
               alt="RASPBERRY"
               width="214"
               height="160"
             />
-            <h3>RASPBERRY</h3>
+            <h3 class="ingredients-subtitle">RASPBERRY</h3>
           </li>
-          <li>
-            <img
+          <li class="ingredients-item">
+            <img class="ingredients-img"
               src="./images/ingredients/img-7.png"
               alt="COCONUT OIL"
               width="214"
               height="160"
             />
-            <h3>Coconut Oil</h3>
+            <h3 class="ingredients-img-name">Coconut Oil</h3>
           </li>
         </ul>
       </section>
@@ -415,7 +420,7 @@
             rel="noopener noreferrer"
             aria-label="Link to Facebook"
           >
-            <img src="./images/icons/facebook.svg" alt="Facebook icon" />
+            <img src="./images/social/facebook.svg" alt="Facebook icon" />
           </a>
         </li>
         <li>
@@ -425,7 +430,7 @@
             rel="noopener noreferrer"
             aria-label="Link to Instagram"
           >
-            <img src="./images/icons/instagram.svg" alt="Instagram icon" />
+            <img src="./images/social/instagram.svg" alt="Instagram icon" />
           </a>
         </li>
         <li>
@@ -435,7 +440,7 @@
             rel="noopener noreferrer"
             aria-label="Link to Twitter (X)"
           >
-            <img src="./images/icons/twitter.svg" alt="Twitter (X) icon" />
+            <img src="./images/social/twitter.svg" alt="Twitter (X) icon" />
           </a>
         </li>
       </ul>

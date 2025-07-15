@@ -1,0 +1,157 @@
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: #fafafa;
+    color: #111;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+    color: currentColor;
+}
+
+address{
+font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header{
+
+}
+
+.header-logo
+
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.header-list-link{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.header-list-link:hover,
+.header-list-link:focus{
+    color: #FD9222;
+}
+
+.hero{
+background: rgba(17, 17, 17, 0.4);
+}
+
+.hero-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.hero-button-primary{
+    background-color: #FD9222;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.hero-button-secondary{
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.hero-arrow{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.benefits{
+background-color: #1E1823;
+}
+
+.benefits-subtitle{
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22222;
+color:#FFFFFF;
+}
+
+.benefits-text{
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.ingredients {
+    background-color: #FFFFFF;
+}
+
+.ingredients-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ingredients-title-accent{
+color: #FD9222
+}
+.ingredients-list {}
+
+.ingredients-item:nth-child(4n+1) {
+    background-color: #FD9222;
+}
+
+.ingredients-item:nth-child(4n+3) {
+    background-color: #1E1823;
+}
+
+.ingredients-item:nth-child(2n) {
+    color: #FFFFFF;
+}
+
+.ingredients-img {}
+
+.ingredients-item:nth-child(2n) .ingredients-subtitle{
+    color: #111;
+}
+
+.ingredients-subtitle {
+    font-weight: 600;
+        font-size: 14px;
+        line-height: 1.28571;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.ingredients-img-name {}
